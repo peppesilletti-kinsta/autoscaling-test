@@ -18,7 +18,7 @@ app.get('/increase-cpu-load', (req, res) => {
 });
 
 // Start the server
-const port = 5001;
+const port = process.env.PORT;
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
