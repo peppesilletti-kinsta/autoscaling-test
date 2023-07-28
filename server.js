@@ -17,6 +17,10 @@ app.get('/increase-cpu-load', (req, res) => {
   }
 });
 
+app.get('/test', (req, res) => {
+  return res.send('Hello Kinsta!');
+});
+
 // Start the server
 const port = process.env.PORT;
 app.listen(port, () => {
