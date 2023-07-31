@@ -18,7 +18,7 @@ app.get('/increase-cpu-load', (req, res) => {
 });
 
 app.get('/test', (req, res) => {
-  return res.send('Hello Kinsta!');
+  return res.send('Hello Adam!');
 });
 
 // Start the server
