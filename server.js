@@ -19,7 +19,7 @@ app.get('/increase-cpu-load', (req, res) => {
 });
 
 app.get('/test', (req, res) => {
-  return res.send('Hello Adam!', process.env.APP_PORT);
+  return res.send('Hello Adam!');
 });
 
 app.get('/test2', (req, res) => {
