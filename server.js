@@ -1,6 +1,6 @@
 // Import required modules
 const express = require('express');
-const fetch = require('node-fetch');
+const fetch = require('node-fetch-commonjs');
 
 // Create an Express application
 const app = express();
